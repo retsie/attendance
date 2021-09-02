@@ -1,0 +1,3153 @@
+CRITICAL - 2021-08-27 08:09:25 --> Unclosed '{' on line 30 does not match ']'
+#0 C:\xampp8\htdocs\attendance\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp8\\htdoc...')
+#1 C:\xampp8\htdocs\attendance\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp8\htdocs\attendance\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#4 C:\xampp8\htdocs\attendance\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp8\htdocs\attendance\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp8\htdocs\attendance\public_html\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-27 08:09:51 --> syntax error, unexpected single-quoted string "valid_email", expecting "]"
+#0 C:\xampp8\htdocs\attendance\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp8\\htdoc...')
+#1 C:\xampp8\htdocs\attendance\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp8\htdocs\attendance\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#4 C:\xampp8\htdocs\attendance\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp8\htdocs\attendance\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp8\htdocs\attendance\public_html\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-08-27 08:47:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-08-27 21:47:57 --> GGGGGGGGGGGG:  CodeIgniter\HTTP\IncomingRequest Object
+(
+    [enableCSRF:protected] => 
+    [uri] => CodeIgniter\HTTP\URI Object
+        (
+            [uriString:protected] => 
+            [segments:protected] => Array
+                (
+                    [0] => register
+                    [1] => ajax_signup
+                )
+
+            [scheme:protected] => http
+            [user:protected] => 
+            [password:protected] => 
+            [host:protected] => localhost
+            [port:protected] => 
+            [path:protected] => register/ajax_signup
+            [fragment:protected] => 
+            [query:protected] => Array
+                (
+                )
+
+            [defaultPorts:protected] => Array
+                (
+                    [http] => 80
+                    [https] => 443
+                    [ftp] => 21
+                    [sftp] => 22
+                )
+
+            [showPassword:protected] => 
+            [silent:protected] => 
+            [rawQueryString:protected] => 
+        )
+
+    [path:protected] => register/ajax_signup
+    [files:protected] => 
+    [negotiator:protected] => 
+    [defaultLocale:protected] => en
+    [locale:protected] => en
+    [validLocales:protected] => Array
+        (
+            [0] => en
+        )
+
+    [config] => Config\App Object
+        (
+            [baseURL] => http://localhost/attendance/public_html/
+            [indexPage] => 
+            [uriProtocol] => REQUEST_URI
+            [defaultLocale] => en
+            [negotiateLocale] => 
+            [supportedLocales] => Array
+                (
+                    [0] => en
+                )
+
+            [appTimezone] => America/Chicago
+            [charset] => UTF-8
+            [forceGlobalSecureRequests] => 
+            [sessionDriver] => CodeIgniter\Session\Handlers\FileHandler
+            [sessionCookieName] => ci_session
+            [sessionExpiration] => 7200
+            [sessionSavePath] => C:\xampp8\htdocs\attendance\writable\session
+            [sessionMatchIP] => 
+            [sessionTimeToUpdate] => 300
+            [sessionRegenerateDestroy] => 
+            [cookiePrefix] => 
+            [cookieDomain] => 
+            [cookiePath] => /
+            [cookieSecure] => 
+            [cookieHTTPOnly] => 1
+            [cookieSameSite] => Lax
+            [proxyIPs] => 
+            [CSRFTokenName] => csrf_test_name
+            [CSRFHeaderName] => X-CSRF-TOKEN
+            [CSRFCookieName] => csrf_cookie_name
+            [CSRFExpire] => 7200
+            [CSRFRegenerate] => 1
+            [CSRFRedirect] => 1
+            [CSRFSameSite] => Lax
+            [CSPEnabled] => 
+        )
+
+    [oldInput:protected] => Array
+        (
+        )
+
+    [userAgent:protected] => CodeIgniter\HTTP\UserAgent Object
+        (
+            [agent:protected] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+            [isBrowser:protected] => 1
+            [isRobot:protected] => 
+            [isMobile:protected] => 
+            [config:protected] => Config\UserAgents Object
+                (
+                    [platforms] => Array
+                        (
+                            [windows nt 10.0] => Windows 10
+                            [windows nt 6.3] => Windows 8.1
+                            [windows nt 6.2] => Windows 8
+                            [windows nt 6.1] => Windows 7
+                            [windows nt 6.0] => Windows Vista
+                            [windows nt 5.2] => Windows 2003
+                            [windows nt 5.1] => Windows XP
+                            [windows nt 5.0] => Windows 2000
+                            [windows nt 4.0] => Windows NT 4.0
+                            [winnt4.0] => Windows NT 4.0
+                            [winnt 4.0] => Windows NT
+                            [winnt] => Windows NT
+                            [windows 98] => Windows 98
+                            [win98] => Windows 98
+                            [windows 95] => Windows 95
+                            [win95] => Windows 95
+                            [windows phone] => Windows Phone
+                            [windows] => Unknown Windows OS
+                            [android] => Android
+                            [blackberry] => BlackBerry
+                            [iphone] => iOS
+                            [ipad] => iOS
+                            [ipod] => iOS
+                            [os x] => Mac OS X
+                            [ppc mac] => Power PC Mac
+                            [freebsd] => FreeBSD
+                            [ppc] => Macintosh
+                            [linux] => Linux
+                            [debian] => Debian
+                            [sunos] => Sun Solaris
+                            [beos] => BeOS
+                            [apachebench] => ApacheBench
+                            [aix] => AIX
+                            [irix] => Irix
+                            [osf] => DEC OSF
+                            [hp-ux] => HP-UX
+                            [netbsd] => NetBSD
+                            [bsdi] => BSDi
+                            [openbsd] => OpenBSD
+                            [gnu] => GNU/Linux
+                            [unix] => Unknown Unix OS
+                            [symbian] => Symbian OS
+                        )
+
+                    [browsers] => Array
+                        (
+                            [OPR] => Opera
+                            [Flock] => Flock
+                            [Edge] => Spartan
+                            [Edg] => Edge
+                            [Chrome] => Chrome
+                            [Opera.*?Version] => Opera
+                            [Opera] => Opera
+                            [MSIE] => Internet Explorer
+                            [Internet Explorer] => Internet Explorer
+                            [Trident.* rv] => Internet Explorer
+                            [Shiira] => Shiira
+                            [Firefox] => Firefox
+                            [Chimera] => Chimera
+                            [Phoenix] => Phoenix
+                            [Firebird] => Firebird
+                            [Camino] => Camino
+                            [Netscape] => Netscape
+                            [OmniWeb] => OmniWeb
+                            [Safari] => Safari
+                            [Mozilla] => Mozilla
+                            [Konqueror] => Konqueror
+                            [icab] => iCab
+                            [Lynx] => Lynx
+                            [Links] => Links
+                            [hotjava] => HotJava
+                            [amaya] => Amaya
+                            [IBrowse] => IBrowse
+                            [Maxthon] => Maxthon
+                            [Ubuntu] => Ubuntu Web Browser
+                            [Vivaldi] => Vivaldi
+                        )
+
+                    [mobiles] => Array
+                        (
+                            [mobileexplorer] => Mobile Explorer
+                            [palmsource] => Palm
+                            [palmscape] => Palmscape
+                            [motorola] => Motorola
+                            [nokia] => Nokia
+                            [palm] => Palm
+                            [iphone] => Apple iPhone
+                            [ipad] => iPad
+                            [ipod] => Apple iPod Touch
+                            [sony] => Sony Ericsson
+                            [ericsson] => Sony Ericsson
+                            [blackberry] => BlackBerry
+                            [cocoon] => O2 Cocoon
+                            [blazer] => Treo
+                            [lg] => LG
+                            [amoi] => Amoi
+                            [xda] => XDA
+                            [mda] => MDA
+                            [vario] => Vario
+                            [htc] => HTC
+                            [samsung] => Samsung
+                            [sharp] => Sharp
+                            [sie-] => Siemens
+                            [alcatel] => Alcatel
+                            [benq] => BenQ
+                            [ipaq] => HP iPaq
+                            [mot-] => Motorola
+                            [playstation portable] => PlayStation Portable
+                            [playstation 3] => PlayStation 3
+                            [playstation vita] => PlayStation Vita
+                            [hiptop] => Danger Hiptop
+                            [nec-] => NEC
+                            [panasonic] => Panasonic
+                            [philips] => Philips
+                            [sagem] => Sagem
+                            [sanyo] => Sanyo
+                            [spv] => SPV
+                            [zte] => ZTE
+                            [sendo] => Sendo
+                            [nintendo dsi] => Nintendo DSi
+                            [nintendo ds] => Nintendo DS
+                            [nintendo 3ds] => Nintendo 3DS
+                            [wii] => Nintendo Wii
+                            [open web] => Open Web
+                            [openweb] => OpenWeb
+                            [android] => Android
+                            [symbian] => Symbian
+                            [SymbianOS] => SymbianOS
+                            [elaine] => Palm
+                            [series60] => Symbian S60
+                            [windows ce] => Windows CE
+                            [obigo] => Obigo
+                            [netfront] => Netfront Browser
+                            [openwave] => Openwave Browser
+                            [mobilexplorer] => Mobile Explorer
+                            [operamini] => Opera Mini
+                            [opera mini] => Opera Mini
+                            [opera mobi] => Opera Mobile
+                            [fennec] => Firefox Mobile
+                            [digital paths] => Digital Paths
+                            [avantgo] => AvantGo
+                            [xiino] => Xiino
+                            [novarra] => Novarra Transcoder
+                            [vodafone] => Vodafone
+                            [docomo] => NTT DoCoMo
+                            [o2] => O2
+                            [mobile] => Generic Mobile
+                            [wireless] => Generic Mobile
+                            [j2me] => Generic Mobile
+                            [midp] => Generic Mobile
+                            [cldc] => Generic Mobile
+                            [up.link] => Generic Mobile
+                            [up.browser] => Generic Mobile
+                            [smartphone] => Generic Mobile
+                            [cellphone] => Generic Mobile
+                        )
+
+                    [robots] => Array
+                        (
+                            [googlebot] => Googlebot
+                            [msnbot] => MSNBot
+                            [baiduspider] => Baiduspider
+                            [bingbot] => Bing
+                            [slurp] => Inktomi Slurp
+                            [yahoo] => Yahoo
+                            [ask jeeves] => Ask Jeeves
+                            [fastcrawler] => FastCrawler
+                            [infoseek] => InfoSeek Robot 1.0
+                            [lycos] => Lycos
+                            [yandex] => YandexBot
+                            [mediapartners-google] => MediaPartners Google
+                            [CRAZYWEBCRAWLER] => Crazy Webcrawler
+                            [adsbot-google] => AdsBot Google
+                            [feedfetcher-google] => Feedfetcher Google
+                            [curious george] => Curious George
+                            [ia_archiver] => Alexa Crawler
+                            [MJ12bot] => Majestic-12
+                            [Uptimebot] => Uptimebot
+                        )
+
+                )
+
+            [platform:protected] => Windows 10
+            [browser:protected] => Chrome
+            [version:protected] => 92.0.4515.159
+            [mobile:protected] => 
+            [robot:protected] => 
+            [referrer:protected] => 
+        )
+
+    [proxyIPs:protected] => 
+    [method:protected] => POST
+    [protocolVersion:protected] => 1.1
+    [validProtocolVersions:protected] => Array
+        (
+            [0] => 1.0
+            [1] => 1.1
+            [2] => 2.0
+        )
+
+    [body:protected] => floatingLrn=123456789012&floatingEmail=chiecruzcayanan%40gmail.com&floatingType=1&floatingFirstName=Reselito&floatingMiddleName=C&floatingLastName=Cayanan&floatingAddress=220+Macopa%0D%0AMaligaya&floatingParents=test&floatingNumber=09278077727&floatingBirth=222222222222222222222222222&icon-input=1&custom-switch-checkbox=on
+    [headers:protected] => Array
+        (
+            [Content-Type] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Content-Type
+                    [value:protected] => application/x-www-form-urlencoded; charset=UTF-8
+                )
+
+            [Host] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Host
+                    [value:protected] => localhost
+                )
+
+            [Connection] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Connection
+                    [value:protected] => keep-alive
+                )
+
+            [Sec-Ch-Ua] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Sec-Ch-Ua
+                    [value:protected] => "Chromium";v="92", " Not A;Brand";v="99", "Google Chrome";v="92"
+                )
+
+            [Accept] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Accept
+                    [value:protected] => application/json, text/javascript, */*; q=0.01
+                )
+
+            [X-Requested-With] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => X-Requested-With
+                    [value:protected] => XMLHttpRequest
+                )
+
+            [Sec-Ch-Ua-Mobile] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Sec-Ch-Ua-Mobile
+                    [value:protected] => ?0
+                )
+
+            [User-Agent] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => User-Agent
+                    [value:protected] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+                )
+
+            [Origin] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Origin
+                    [value:protected] => http://localhost
+                )
+
+            [Sec-Fetch-Site] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Sec-Fetch-Site
+                    [value:protected] => same-origin
+                )
+
+            [Sec-Fetch-Mode] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Sec-Fetch-Mode
+                    [value:protected] => cors
+                )
+
+            [Sec-Fetch-Dest] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Sec-Fetch-Dest
+                    [value:protected] => empty
+                )
+
+            [Referer] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Referer
+                    [value:protected] => http://localhost/attendance/public_html/register
+                )
+
+            [Accept-Encoding] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Accept-Encoding
+                    [value:protected] => gzip, deflate, br
+                )
+
+            [Accept-Language] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Accept-Language
+                    [value:protected] => en,en-US;q=0.9,en-GB;q=0.8,fil;q=0.7
+                )
+
+            [Cookie] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Cookie
+                    [value:protected] => mailinglist=true; _ga=GA1.1.1678477077.1629266017; debug-bar-state=minimized; _ga_8SPL7E0RPH=GS1.1.1629861550.2.1.1629861598.0; ci_session=s03p8h8fo5gqgvrrv998v823p2gj58ar
+                )
+
+        )
+
+    [headerMap:protected] => Array
+        (
+            [content-type] => Content-Type
+            [host] => Host
+            [connection] => Connection
+            [sec-ch-ua] => Sec-Ch-Ua
+            [accept] => Accept
+            [x-requested-with] => X-Requested-With
+            [sec-ch-ua-mobile] => Sec-Ch-Ua-Mobile
+            [user-agent] => User-Agent
+            [origin] => Origin
+            [sec-fetch-site] => Sec-Fetch-Site
+            [sec-fetch-mode] => Sec-Fetch-Mode
+            [sec-fetch-dest] => Sec-Fetch-Dest
+            [referer] => Referer
+            [accept-encoding] => Accept-Encoding
+            [accept-language] => Accept-Language
+            [cookie] => Cookie
+        )
+
+    [ipAddress:protected] => ::1
+    [globals:protected] => Array
+        (
+            [server] => Array
+                (
+                    [REDIRECT_MIBDIRS] => C:/xampp8/php/extras/mibs
+                    [REDIRECT_MYSQL_HOME] => \xampp\mysql\bin
+                    [REDIRECT_OPENSSL_CONF] => C:/xampp8/apache/bin/openssl.cnf
+                    [REDIRECT_PHP_PEAR_SYSCONF_DIR] => \xampp\php
+                    [REDIRECT_PHPRC] => \xampp\php
+                    [REDIRECT_TMP] => \xampp\tmp
+                    [REDIRECT_STATUS] => 200
+                    [MIBDIRS] => C:/xampp8/php/extras/mibs
+                    [MYSQL_HOME] => \xampp\mysql\bin
+                    [OPENSSL_CONF] => C:/xampp8/apache/bin/openssl.cnf
+                    [PHP_PEAR_SYSCONF_DIR] => \xampp\php
+                    [PHPRC] => \xampp\php
+                    [TMP] => \xampp\tmp
+                    [HTTP_HOST] => localhost
+                    [HTTP_CONNECTION] => keep-alive
+                    [CONTENT_LENGTH] => 324
+                    [HTTP_SEC_CH_UA] => "Chromium";v="92", " Not A;Brand";v="99", "Google Chrome";v="92"
+                    [HTTP_ACCEPT] => application/json, text/javascript, */*; q=0.01
+                    [HTTP_X_REQUESTED_WITH] => XMLHttpRequest
+                    [HTTP_SEC_CH_UA_MOBILE] => ?0
+                    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+                    [CONTENT_TYPE] => application/x-www-form-urlencoded; charset=UTF-8
+                    [HTTP_ORIGIN] => http://localhost
+                    [HTTP_SEC_FETCH_SITE] => same-origin
+                    [HTTP_SEC_FETCH_MODE] => cors
+                    [HTTP_SEC_FETCH_DEST] => empty
+                    [HTTP_REFERER] => http://localhost/attendance/public_html/register
+                    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+                    [HTTP_ACCEPT_LANGUAGE] => en,en-US;q=0.9,en-GB;q=0.8,fil;q=0.7
+                    [HTTP_COOKIE] => mailinglist=true; _ga=GA1.1.1678477077.1629266017; debug-bar-state=minimized; _ga_8SPL7E0RPH=GS1.1.1629861550.2.1.1629861598.0; ci_session=s03p8h8fo5gqgvrrv998v823p2gj58ar
+                    [PATH] => C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\chie_isay\AppData\Local\Microsoft\WindowsApps;C:\Users\chie_isay\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\chie_isay\AppData\Roaming\Composer\vendor\bin, C:\php-7.4;C:\Program Files (x86)\GitExtensions\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\chie_isay\AppData\Local\Microsoft\WindowsApps;C:\Users\chie_isay\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\chie_isay\AppData\Roaming\Composer\vendor\bin;
+                    [SystemRoot] => C:\WINDOWS
+                    [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+                    [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+                    [WINDIR] => C:\WINDOWS
+                    [SERVER_SIGNATURE] => 
+                    [SERVER_SOFTWARE] => Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.9
+                    [SERVER_NAME] => localhost
+                    [SERVER_ADDR] => ::1
+                    [SERVER_PORT] => 80
+                    [REMOTE_ADDR] => ::1
+                    [DOCUMENT_ROOT] => C:/xampp8/htdocs
+                    [REQUEST_SCHEME] => http
+                    [CONTEXT_PREFIX] => 
+                    [CONTEXT_DOCUMENT_ROOT] => C:/xampp8/htdocs
+                    [SERVER_ADMIN] => postmaster@localhost
+                    [SCRIPT_FILENAME] => C:/xampp8/htdocs/attendance/public_html/index.php
+                    [REMOTE_PORT] => 63794
+                    [REDIRECT_URL] => /attendance/public_html/register/ajax_signup
+                    [GATEWAY_INTERFACE] => CGI/1.1
+                    [SERVER_PROTOCOL] => HTTP/1.1
+                    [REQUEST_METHOD] => POST
+                    [QUERY_STRING] => 
+                    [REQUEST_URI] => /attendance/public_html/register/ajax_signup
+                    [SCRIPT_NAME] => /attendance/public_html/index.php
+                    [PATH_INFO] => /register/ajax_signup
+                    [PATH_TRANSLATED] => C:\xampp8\htdocs\register\ajax_signup
+                    [PHP_SELF] => /attendance/public_html/index.php/register/ajax_signup
+                    [REQUEST_TIME_FLOAT] => 1630072077.0333
+                    [REQUEST_TIME] => 1630072077
+                )
+
+            [get] => Array
+                (
+                )
+
+            [post] => Array
+                (
+                    [floatingLrn] => 123456789012
+                    [floatingEmail] => chiecruzcayanan@gmail.com
+                    [floatingType] => 1
+                    [floatingFirstName] => Reselito
+                    [floatingMiddleName] => C
+                    [floatingLastName] => Cayanan
+                    [floatingAddress] => 220 Macopa
+Maligaya
+                    [floatingParents] => test
+                    [floatingNumber] => 09278077727
+                    [floatingBirth] => 222222222222222222222222222
+                    [icon-input] => 1
+                    [custom-switch-checkbox] => on
+                )
+
+        )
+
+)
+
+INFO - 2021-08-27 08:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-08-27 21:48:46 --> GGGGGGGGGGGG:  CodeIgniter\HTTP\IncomingRequest Object
+(
+    [enableCSRF:protected] => 
+    [uri] => CodeIgniter\HTTP\URI Object
+        (
+            [uriString:protected] => 
+            [segments:protected] => Array
+                (
+                    [0] => register
+                    [1] => ajax_signup
+                )
+
+            [scheme:protected] => http
+            [user:protected] => 
+            [password:protected] => 
+            [host:protected] => localhost
+            [port:protected] => 
+            [path:protected] => register/ajax_signup
+            [fragment:protected] => 
+            [query:protected] => Array
+                (
+                )
+
+            [defaultPorts:protected] => Array
+                (
+                    [http] => 80
+                    [https] => 443
+                    [ftp] => 21
+                    [sftp] => 22
+                )
+
+            [showPassword:protected] => 
+            [silent:protected] => 
+            [rawQueryString:protected] => 
+        )
+
+    [path:protected] => register/ajax_signup
+    [files:protected] => 
+    [negotiator:protected] => 
+    [defaultLocale:protected] => en
+    [locale:protected] => en
+    [validLocales:protected] => Array
+        (
+            [0] => en
+        )
+
+    [config] => Config\App Object
+        (
+            [baseURL] => http://localhost/attendance/public_html/
+            [indexPage] => 
+            [uriProtocol] => REQUEST_URI
+            [defaultLocale] => en
+            [negotiateLocale] => 
+            [supportedLocales] => Array
+                (
+                    [0] => en
+                )
+
+            [appTimezone] => America/Chicago
+            [charset] => UTF-8
+            [forceGlobalSecureRequests] => 
+            [sessionDriver] => CodeIgniter\Session\Handlers\FileHandler
+            [sessionCookieName] => ci_session
+            [sessionExpiration] => 7200
+            [sessionSavePath] => C:\xampp8\htdocs\attendance\writable\session
+            [sessionMatchIP] => 
+            [sessionTimeToUpdate] => 300
+            [sessionRegenerateDestroy] => 
+            [cookiePrefix] => 
+            [cookieDomain] => 
+            [cookiePath] => /
+            [cookieSecure] => 
+            [cookieHTTPOnly] => 1
+            [cookieSameSite] => Lax
+            [proxyIPs] => 
+            [CSRFTokenName] => csrf_test_name
+            [CSRFHeaderName] => X-CSRF-TOKEN
+            [CSRFCookieName] => csrf_cookie_name
+            [CSRFExpire] => 7200
+            [CSRFRegenerate] => 1
+            [CSRFRedirect] => 1
+            [CSRFSameSite] => Lax
+            [CSPEnabled] => 
+        )
+
+    [oldInput:protected] => Array
+        (
+        )
+
+    [userAgent:protected] => CodeIgniter\HTTP\UserAgent Object
+        (
+            [agent:protected] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+            [isBrowser:protected] => 1
+            [isRobot:protected] => 
+            [isMobile:protected] => 
+            [config:protected] => Config\UserAgents Object
+                (
+                    [platforms] => Array
+                        (
+                            [windows nt 10.0] => Windows 10
+                            [windows nt 6.3] => Windows 8.1
+                            [windows nt 6.2] => Windows 8
+                            [windows nt 6.1] => Windows 7
+                            [windows nt 6.0] => Windows Vista
+                            [windows nt 5.2] => Windows 2003
+                            [windows nt 5.1] => Windows XP
+                            [windows nt 5.0] => Windows 2000
+                            [windows nt 4.0] => Windows NT 4.0
+                            [winnt4.0] => Windows NT 4.0
+                            [winnt 4.0] => Windows NT
+                            [winnt] => Windows NT
+                            [windows 98] => Windows 98
+                            [win98] => Windows 98
+                            [windows 95] => Windows 95
+                            [win95] => Windows 95
+                            [windows phone] => Windows Phone
+                            [windows] => Unknown Windows OS
+                            [android] => Android
+                            [blackberry] => BlackBerry
+                            [iphone] => iOS
+                            [ipad] => iOS
+                            [ipod] => iOS
+                            [os x] => Mac OS X
+                            [ppc mac] => Power PC Mac
+                            [freebsd] => FreeBSD
+                            [ppc] => Macintosh
+                            [linux] => Linux
+                            [debian] => Debian
+                            [sunos] => Sun Solaris
+                            [beos] => BeOS
+                            [apachebench] => ApacheBench
+                            [aix] => AIX
+                            [irix] => Irix
+                            [osf] => DEC OSF
+                            [hp-ux] => HP-UX
+                            [netbsd] => NetBSD
+                            [bsdi] => BSDi
+                            [openbsd] => OpenBSD
+                            [gnu] => GNU/Linux
+                            [unix] => Unknown Unix OS
+                            [symbian] => Symbian OS
+                        )
+
+                    [browsers] => Array
+                        (
+                            [OPR] => Opera
+                            [Flock] => Flock
+                            [Edge] => Spartan
+                            [Edg] => Edge
+                            [Chrome] => Chrome
+                            [Opera.*?Version] => Opera
+                            [Opera] => Opera
+                            [MSIE] => Internet Explorer
+                            [Internet Explorer] => Internet Explorer
+                            [Trident.* rv] => Internet Explorer
+                            [Shiira] => Shiira
+                            [Firefox] => Firefox
+                            [Chimera] => Chimera
+                            [Phoenix] => Phoenix
+                            [Firebird] => Firebird
+                            [Camino] => Camino
+                            [Netscape] => Netscape
+                            [OmniWeb] => OmniWeb
+                            [Safari] => Safari
+                            [Mozilla] => Mozilla
+                            [Konqueror] => Konqueror
+                            [icab] => iCab
+                            [Lynx] => Lynx
+                            [Links] => Links
+                            [hotjava] => HotJava
+                            [amaya] => Amaya
+                            [IBrowse] => IBrowse
+                            [Maxthon] => Maxthon
+                            [Ubuntu] => Ubuntu Web Browser
+                            [Vivaldi] => Vivaldi
+                        )
+
+                    [mobiles] => Array
+                        (
+                            [mobileexplorer] => Mobile Explorer
+                            [palmsource] => Palm
+                            [palmscape] => Palmscape
+                            [motorola] => Motorola
+                            [nokia] => Nokia
+                            [palm] => Palm
+                            [iphone] => Apple iPhone
+                            [ipad] => iPad
+                            [ipod] => Apple iPod Touch
+                            [sony] => Sony Ericsson
+                            [ericsson] => Sony Ericsson
+                            [blackberry] => BlackBerry
+                            [cocoon] => O2 Cocoon
+                            [blazer] => Treo
+                            [lg] => LG
+                            [amoi] => Amoi
+                            [xda] => XDA
+                            [mda] => MDA
+                            [vario] => Vario
+                            [htc] => HTC
+                            [samsung] => Samsung
+                            [sharp] => Sharp
+                            [sie-] => Siemens
+                            [alcatel] => Alcatel
+                            [benq] => BenQ
+                            [ipaq] => HP iPaq
+                            [mot-] => Motorola
+                            [playstation portable] => PlayStation Portable
+                            [playstation 3] => PlayStation 3
+                            [playstation vita] => PlayStation Vita
+                            [hiptop] => Danger Hiptop
+                            [nec-] => NEC
+                            [panasonic] => Panasonic
+                            [philips] => Philips
+                            [sagem] => Sagem
+                            [sanyo] => Sanyo
+                            [spv] => SPV
+                            [zte] => ZTE
+                            [sendo] => Sendo
+                            [nintendo dsi] => Nintendo DSi
+                            [nintendo ds] => Nintendo DS
+                            [nintendo 3ds] => Nintendo 3DS
+                            [wii] => Nintendo Wii
+                            [open web] => Open Web
+                            [openweb] => OpenWeb
+                            [android] => Android
+                            [symbian] => Symbian
+                            [SymbianOS] => SymbianOS
+                            [elaine] => Palm
+                            [series60] => Symbian S60
+                            [windows ce] => Windows CE
+                            [obigo] => Obigo
+                            [netfront] => Netfront Browser
+                            [openwave] => Openwave Browser
+                            [mobilexplorer] => Mobile Explorer
+                            [operamini] => Opera Mini
+                            [opera mini] => Opera Mini
+                            [opera mobi] => Opera Mobile
+                            [fennec] => Firefox Mobile
+                            [digital paths] => Digital Paths
+                            [avantgo] => AvantGo
+                            [xiino] => Xiino
+                            [novarra] => Novarra Transcoder
+                            [vodafone] => Vodafone
+                            [docomo] => NTT DoCoMo
+                            [o2] => O2
+                            [mobile] => Generic Mobile
+                            [wireless] => Generic Mobile
+                            [j2me] => Generic Mobile
+                            [midp] => Generic Mobile
+                            [cldc] => Generic Mobile
+                            [up.link] => Generic Mobile
+                            [up.browser] => Generic Mobile
+                            [smartphone] => Generic Mobile
+                            [cellphone] => Generic Mobile
+                        )
+
+                    [robots] => Array
+                        (
+                            [googlebot] => Googlebot
+                            [msnbot] => MSNBot
+                            [baiduspider] => Baiduspider
+                            [bingbot] => Bing
+                            [slurp] => Inktomi Slurp
+                            [yahoo] => Yahoo
+                            [ask jeeves] => Ask Jeeves
+                            [fastcrawler] => FastCrawler
+                            [infoseek] => InfoSeek Robot 1.0
+                            [lycos] => Lycos
+                            [yandex] => YandexBot
+                            [mediapartners-google] => MediaPartners Google
+                            [CRAZYWEBCRAWLER] => Crazy Webcrawler
+                            [adsbot-google] => AdsBot Google
+                            [feedfetcher-google] => Feedfetcher Google
+                            [curious george] => Curious George
+                            [ia_archiver] => Alexa Crawler
+                            [MJ12bot] => Majestic-12
+                            [Uptimebot] => Uptimebot
+                        )
+
+                )
+
+            [platform:protected] => Windows 10
+            [browser:protected] => Chrome
+            [version:protected] => 92.0.4515.159
+            [mobile:protected] => 
+            [robot:protected] => 
+            [referrer:protected] => 
+        )
+
+    [proxyIPs:protected] => 
+    [method:protected] => POST
+    [protocolVersion:protected] => 1.1
+    [validProtocolVersions:protected] => Array
+        (
+            [0] => 1.0
+            [1] => 1.1
+            [2] => 2.0
+        )
+
+    [body:protected] => floatingLrn=123456789012&floatingEmail=chiecruzcayanan%40gmail.com&floatingType=1&floatingFirstName=Reselito&floatingMiddleName=C&floatingLastName=Cayanan&floatingAddress=220+Macopa%0D%0AMaligaya&floatingParents=test&floatingNumber=09278077727&floatingBirth=222222222222222222222222222&icon-input=1&custom-switch-checkbox=on
+    [headers:protected] => Array
+        (
+            [Content-Type] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Content-Type
+                    [value:protected] => application/x-www-form-urlencoded; charset=UTF-8
+                )
+
+            [Host] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Host
+                    [value:protected] => localhost
+                )
+
+            [Connection] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Connection
+                    [value:protected] => keep-alive
+                )
+
+            [Sec-Ch-Ua] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Sec-Ch-Ua
+                    [value:protected] => "Chromium";v="92", " Not A;Brand";v="99", "Google Chrome";v="92"
+                )
+
+            [Accept] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Accept
+                    [value:protected] => application/json, text/javascript, */*; q=0.01
+                )
+
+            [X-Requested-With] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => X-Requested-With
+                    [value:protected] => XMLHttpRequest
+                )
+
+            [Sec-Ch-Ua-Mobile] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Sec-Ch-Ua-Mobile
+                    [value:protected] => ?0
+                )
+
+            [User-Agent] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => User-Agent
+                    [value:protected] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+                )
+
+            [Origin] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Origin
+                    [value:protected] => http://localhost
+                )
+
+            [Sec-Fetch-Site] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Sec-Fetch-Site
+                    [value:protected] => same-origin
+                )
+
+            [Sec-Fetch-Mode] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Sec-Fetch-Mode
+                    [value:protected] => cors
+                )
+
+            [Sec-Fetch-Dest] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Sec-Fetch-Dest
+                    [value:protected] => empty
+                )
+
+            [Referer] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Referer
+                    [value:protected] => http://localhost/attendance/public_html/register
+                )
+
+            [Accept-Encoding] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Accept-Encoding
+                    [value:protected] => gzip, deflate, br
+                )
+
+            [Accept-Language] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Accept-Language
+                    [value:protected] => en,en-US;q=0.9,en-GB;q=0.8,fil;q=0.7
+                )
+
+            [Cookie] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Cookie
+                    [value:protected] => mailinglist=true; _ga=GA1.1.1678477077.1629266017; debug-bar-state=minimized; _ga_8SPL7E0RPH=GS1.1.1629861550.2.1.1629861598.0; ci_session=s03p8h8fo5gqgvrrv998v823p2gj58ar
+                )
+
+        )
+
+    [headerMap:protected] => Array
+        (
+            [content-type] => Content-Type
+            [host] => Host
+            [connection] => Connection
+            [sec-ch-ua] => Sec-Ch-Ua
+            [accept] => Accept
+            [x-requested-with] => X-Requested-With
+            [sec-ch-ua-mobile] => Sec-Ch-Ua-Mobile
+            [user-agent] => User-Agent
+            [origin] => Origin
+            [sec-fetch-site] => Sec-Fetch-Site
+            [sec-fetch-mode] => Sec-Fetch-Mode
+            [sec-fetch-dest] => Sec-Fetch-Dest
+            [referer] => Referer
+            [accept-encoding] => Accept-Encoding
+            [accept-language] => Accept-Language
+            [cookie] => Cookie
+        )
+
+    [ipAddress:protected] => ::1
+    [globals:protected] => Array
+        (
+            [server] => Array
+                (
+                    [REDIRECT_MIBDIRS] => C:/xampp8/php/extras/mibs
+                    [REDIRECT_MYSQL_HOME] => \xampp\mysql\bin
+                    [REDIRECT_OPENSSL_CONF] => C:/xampp8/apache/bin/openssl.cnf
+                    [REDIRECT_PHP_PEAR_SYSCONF_DIR] => \xampp\php
+                    [REDIRECT_PHPRC] => \xampp\php
+                    [REDIRECT_TMP] => \xampp\tmp
+                    [REDIRECT_STATUS] => 200
+                    [MIBDIRS] => C:/xampp8/php/extras/mibs
+                    [MYSQL_HOME] => \xampp\mysql\bin
+                    [OPENSSL_CONF] => C:/xampp8/apache/bin/openssl.cnf
+                    [PHP_PEAR_SYSCONF_DIR] => \xampp\php
+                    [PHPRC] => \xampp\php
+                    [TMP] => \xampp\tmp
+                    [HTTP_HOST] => localhost
+                    [HTTP_CONNECTION] => keep-alive
+                    [CONTENT_LENGTH] => 324
+                    [HTTP_SEC_CH_UA] => "Chromium";v="92", " Not A;Brand";v="99", "Google Chrome";v="92"
+                    [HTTP_ACCEPT] => application/json, text/javascript, */*; q=0.01
+                    [HTTP_X_REQUESTED_WITH] => XMLHttpRequest
+                    [HTTP_SEC_CH_UA_MOBILE] => ?0
+                    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+                    [CONTENT_TYPE] => application/x-www-form-urlencoded; charset=UTF-8
+                    [HTTP_ORIGIN] => http://localhost
+                    [HTTP_SEC_FETCH_SITE] => same-origin
+                    [HTTP_SEC_FETCH_MODE] => cors
+                    [HTTP_SEC_FETCH_DEST] => empty
+                    [HTTP_REFERER] => http://localhost/attendance/public_html/register
+                    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+                    [HTTP_ACCEPT_LANGUAGE] => en,en-US;q=0.9,en-GB;q=0.8,fil;q=0.7
+                    [HTTP_COOKIE] => mailinglist=true; _ga=GA1.1.1678477077.1629266017; debug-bar-state=minimized; _ga_8SPL7E0RPH=GS1.1.1629861550.2.1.1629861598.0; ci_session=s03p8h8fo5gqgvrrv998v823p2gj58ar
+                    [PATH] => C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\chie_isay\AppData\Local\Microsoft\WindowsApps;C:\Users\chie_isay\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\chie_isay\AppData\Roaming\Composer\vendor\bin, C:\php-7.4;C:\Program Files (x86)\GitExtensions\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\chie_isay\AppData\Local\Microsoft\WindowsApps;C:\Users\chie_isay\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\chie_isay\AppData\Roaming\Composer\vendor\bin;
+                    [SystemRoot] => C:\WINDOWS
+                    [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+                    [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+                    [WINDIR] => C:\WINDOWS
+                    [SERVER_SIGNATURE] => 
+                    [SERVER_SOFTWARE] => Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.9
+                    [SERVER_NAME] => localhost
+                    [SERVER_ADDR] => ::1
+                    [SERVER_PORT] => 80
+                    [REMOTE_ADDR] => ::1
+                    [DOCUMENT_ROOT] => C:/xampp8/htdocs
+                    [REQUEST_SCHEME] => http
+                    [CONTEXT_PREFIX] => 
+                    [CONTEXT_DOCUMENT_ROOT] => C:/xampp8/htdocs
+                    [SERVER_ADMIN] => postmaster@localhost
+                    [SCRIPT_FILENAME] => C:/xampp8/htdocs/attendance/public_html/index.php
+                    [REMOTE_PORT] => 62640
+                    [REDIRECT_URL] => /attendance/public_html/register/ajax_signup
+                    [GATEWAY_INTERFACE] => CGI/1.1
+                    [SERVER_PROTOCOL] => HTTP/1.1
+                    [REQUEST_METHOD] => POST
+                    [QUERY_STRING] => 
+                    [REQUEST_URI] => /attendance/public_html/register/ajax_signup
+                    [SCRIPT_NAME] => /attendance/public_html/index.php
+                    [PATH_INFO] => /register/ajax_signup
+                    [PATH_TRANSLATED] => C:\xampp8\htdocs\register\ajax_signup
+                    [PHP_SELF] => /attendance/public_html/index.php/register/ajax_signup
+                    [REQUEST_TIME_FLOAT] => 1630072126.0742
+                    [REQUEST_TIME] => 1630072126
+                )
+
+            [get] => Array
+                (
+                )
+
+            [post] => Array
+                (
+                    [floatingLrn] => 123456789012
+                    [floatingEmail] => chiecruzcayanan@gmail.com
+                    [floatingType] => 1
+                    [floatingFirstName] => Reselito
+                    [floatingMiddleName] => C
+                    [floatingLastName] => Cayanan
+                    [floatingAddress] => 220 Macopa
+Maligaya
+                    [floatingParents] => test
+                    [floatingNumber] => 09278077727
+                    [floatingBirth] => 222222222222222222222222222
+                    [icon-input] => 1
+                    [custom-switch-checkbox] => on
+                )
+
+        )
+
+)
+
+INFO - 2021-08-27 08:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 08:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-08-27 21:49:42 --> GGGGGGGGGGGG:  CodeIgniter\HTTP\IncomingRequest Object
+(
+    [enableCSRF:protected] => 
+    [uri] => CodeIgniter\HTTP\URI Object
+        (
+            [uriString:protected] => 
+            [segments:protected] => Array
+                (
+                    [0] => register
+                    [1] => ajax_signup
+                )
+
+            [scheme:protected] => http
+            [user:protected] => 
+            [password:protected] => 
+            [host:protected] => localhost
+            [port:protected] => 
+            [path:protected] => register/ajax_signup
+            [fragment:protected] => 
+            [query:protected] => Array
+                (
+                )
+
+            [defaultPorts:protected] => Array
+                (
+                    [http] => 80
+                    [https] => 443
+                    [ftp] => 21
+                    [sftp] => 22
+                )
+
+            [showPassword:protected] => 
+            [silent:protected] => 
+            [rawQueryString:protected] => 
+        )
+
+    [path:protected] => register/ajax_signup
+    [files:protected] => 
+    [negotiator:protected] => 
+    [defaultLocale:protected] => en
+    [locale:protected] => en
+    [validLocales:protected] => Array
+        (
+            [0] => en
+        )
+
+    [config] => Config\App Object
+        (
+            [baseURL] => http://localhost/attendance/public_html/
+            [indexPage] => 
+            [uriProtocol] => REQUEST_URI
+            [defaultLocale] => en
+            [negotiateLocale] => 
+            [supportedLocales] => Array
+                (
+                    [0] => en
+                )
+
+            [appTimezone] => America/Chicago
+            [charset] => UTF-8
+            [forceGlobalSecureRequests] => 
+            [sessionDriver] => CodeIgniter\Session\Handlers\FileHandler
+            [sessionCookieName] => ci_session
+            [sessionExpiration] => 7200
+            [sessionSavePath] => C:\xampp8\htdocs\attendance\writable\session
+            [sessionMatchIP] => 
+            [sessionTimeToUpdate] => 300
+            [sessionRegenerateDestroy] => 
+            [cookiePrefix] => 
+            [cookieDomain] => 
+            [cookiePath] => /
+            [cookieSecure] => 
+            [cookieHTTPOnly] => 1
+            [cookieSameSite] => Lax
+            [proxyIPs] => 
+            [CSRFTokenName] => csrf_test_name
+            [CSRFHeaderName] => X-CSRF-TOKEN
+            [CSRFCookieName] => csrf_cookie_name
+            [CSRFExpire] => 7200
+            [CSRFRegenerate] => 1
+            [CSRFRedirect] => 1
+            [CSRFSameSite] => Lax
+            [CSPEnabled] => 
+        )
+
+    [oldInput:protected] => Array
+        (
+        )
+
+    [userAgent:protected] => CodeIgniter\HTTP\UserAgent Object
+        (
+            [agent:protected] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+            [isBrowser:protected] => 1
+            [isRobot:protected] => 
+            [isMobile:protected] => 
+            [config:protected] => Config\UserAgents Object
+                (
+                    [platforms] => Array
+                        (
+                            [windows nt 10.0] => Windows 10
+                            [windows nt 6.3] => Windows 8.1
+                            [windows nt 6.2] => Windows 8
+                            [windows nt 6.1] => Windows 7
+                            [windows nt 6.0] => Windows Vista
+                            [windows nt 5.2] => Windows 2003
+                            [windows nt 5.1] => Windows XP
+                            [windows nt 5.0] => Windows 2000
+                            [windows nt 4.0] => Windows NT 4.0
+                            [winnt4.0] => Windows NT 4.0
+                            [winnt 4.0] => Windows NT
+                            [winnt] => Windows NT
+                            [windows 98] => Windows 98
+                            [win98] => Windows 98
+                            [windows 95] => Windows 95
+                            [win95] => Windows 95
+                            [windows phone] => Windows Phone
+                            [windows] => Unknown Windows OS
+                            [android] => Android
+                            [blackberry] => BlackBerry
+                            [iphone] => iOS
+                            [ipad] => iOS
+                            [ipod] => iOS
+                            [os x] => Mac OS X
+                            [ppc mac] => Power PC Mac
+                            [freebsd] => FreeBSD
+                            [ppc] => Macintosh
+                            [linux] => Linux
+                            [debian] => Debian
+                            [sunos] => Sun Solaris
+                            [beos] => BeOS
+                            [apachebench] => ApacheBench
+                            [aix] => AIX
+                            [irix] => Irix
+                            [osf] => DEC OSF
+                            [hp-ux] => HP-UX
+                            [netbsd] => NetBSD
+                            [bsdi] => BSDi
+                            [openbsd] => OpenBSD
+                            [gnu] => GNU/Linux
+                            [unix] => Unknown Unix OS
+                            [symbian] => Symbian OS
+                        )
+
+                    [browsers] => Array
+                        (
+                            [OPR] => Opera
+                            [Flock] => Flock
+                            [Edge] => Spartan
+                            [Edg] => Edge
+                            [Chrome] => Chrome
+                            [Opera.*?Version] => Opera
+                            [Opera] => Opera
+                            [MSIE] => Internet Explorer
+                            [Internet Explorer] => Internet Explorer
+                            [Trident.* rv] => Internet Explorer
+                            [Shiira] => Shiira
+                            [Firefox] => Firefox
+                            [Chimera] => Chimera
+                            [Phoenix] => Phoenix
+                            [Firebird] => Firebird
+                            [Camino] => Camino
+                            [Netscape] => Netscape
+                            [OmniWeb] => OmniWeb
+                            [Safari] => Safari
+                            [Mozilla] => Mozilla
+                            [Konqueror] => Konqueror
+                            [icab] => iCab
+                            [Lynx] => Lynx
+                            [Links] => Links
+                            [hotjava] => HotJava
+                            [amaya] => Amaya
+                            [IBrowse] => IBrowse
+                            [Maxthon] => Maxthon
+                            [Ubuntu] => Ubuntu Web Browser
+                            [Vivaldi] => Vivaldi
+                        )
+
+                    [mobiles] => Array
+                        (
+                            [mobileexplorer] => Mobile Explorer
+                            [palmsource] => Palm
+                            [palmscape] => Palmscape
+                            [motorola] => Motorola
+                            [nokia] => Nokia
+                            [palm] => Palm
+                            [iphone] => Apple iPhone
+                            [ipad] => iPad
+                            [ipod] => Apple iPod Touch
+                            [sony] => Sony Ericsson
+                            [ericsson] => Sony Ericsson
+                            [blackberry] => BlackBerry
+                            [cocoon] => O2 Cocoon
+                            [blazer] => Treo
+                            [lg] => LG
+                            [amoi] => Amoi
+                            [xda] => XDA
+                            [mda] => MDA
+                            [vario] => Vario
+                            [htc] => HTC
+                            [samsung] => Samsung
+                            [sharp] => Sharp
+                            [sie-] => Siemens
+                            [alcatel] => Alcatel
+                            [benq] => BenQ
+                            [ipaq] => HP iPaq
+                            [mot-] => Motorola
+                            [playstation portable] => PlayStation Portable
+                            [playstation 3] => PlayStation 3
+                            [playstation vita] => PlayStation Vita
+                            [hiptop] => Danger Hiptop
+                            [nec-] => NEC
+                            [panasonic] => Panasonic
+                            [philips] => Philips
+                            [sagem] => Sagem
+                            [sanyo] => Sanyo
+                            [spv] => SPV
+                            [zte] => ZTE
+                            [sendo] => Sendo
+                            [nintendo dsi] => Nintendo DSi
+                            [nintendo ds] => Nintendo DS
+                            [nintendo 3ds] => Nintendo 3DS
+                            [wii] => Nintendo Wii
+                            [open web] => Open Web
+                            [openweb] => OpenWeb
+                            [android] => Android
+                            [symbian] => Symbian
+                            [SymbianOS] => SymbianOS
+                            [elaine] => Palm
+                            [series60] => Symbian S60
+                            [windows ce] => Windows CE
+                            [obigo] => Obigo
+                            [netfront] => Netfront Browser
+                            [openwave] => Openwave Browser
+                            [mobilexplorer] => Mobile Explorer
+                            [operamini] => Opera Mini
+                            [opera mini] => Opera Mini
+                            [opera mobi] => Opera Mobile
+                            [fennec] => Firefox Mobile
+                            [digital paths] => Digital Paths
+                            [avantgo] => AvantGo
+                            [xiino] => Xiino
+                            [novarra] => Novarra Transcoder
+                            [vodafone] => Vodafone
+                            [docomo] => NTT DoCoMo
+                            [o2] => O2
+                            [mobile] => Generic Mobile
+                            [wireless] => Generic Mobile
+                            [j2me] => Generic Mobile
+                            [midp] => Generic Mobile
+                            [cldc] => Generic Mobile
+                            [up.link] => Generic Mobile
+                            [up.browser] => Generic Mobile
+                            [smartphone] => Generic Mobile
+                            [cellphone] => Generic Mobile
+                        )
+
+                    [robots] => Array
+                        (
+                            [googlebot] => Googlebot
+                            [msnbot] => MSNBot
+                            [baiduspider] => Baiduspider
+                            [bingbot] => Bing
+                            [slurp] => Inktomi Slurp
+                            [yahoo] => Yahoo
+                            [ask jeeves] => Ask Jeeves
+                            [fastcrawler] => FastCrawler
+                            [infoseek] => InfoSeek Robot 1.0
+                            [lycos] => Lycos
+                            [yandex] => YandexBot
+                            [mediapartners-google] => MediaPartners Google
+                            [CRAZYWEBCRAWLER] => Crazy Webcrawler
+                            [adsbot-google] => AdsBot Google
+                            [feedfetcher-google] => Feedfetcher Google
+                            [curious george] => Curious George
+                            [ia_archiver] => Alexa Crawler
+                            [MJ12bot] => Majestic-12
+                            [Uptimebot] => Uptimebot
+                        )
+
+                )
+
+            [platform:protected] => Windows 10
+            [browser:protected] => Chrome
+            [version:protected] => 92.0.4515.159
+            [mobile:protected] => 
+            [robot:protected] => 
+            [referrer:protected] => 
+        )
+
+    [proxyIPs:protected] => 
+    [method:protected] => POST
+    [protocolVersion:protected] => 1.1
+    [validProtocolVersions:protected] => Array
+        (
+            [0] => 1.0
+            [1] => 1.1
+            [2] => 2.0
+        )
+
+    [body:protected] => floatingLrn=&floatingEmail=&floatingType=Open+this+select+menu&floatingFirstName=&floatingMiddleName=&floatingLastName=&floatingAddress=&floatingParents=&floatingNumber=&floatingBirth=&icon-input=1&custom-switch-checkbox=on
+    [headers:protected] => Array
+        (
+            [Content-Type] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Content-Type
+                    [value:protected] => application/x-www-form-urlencoded; charset=UTF-8
+                )
+
+            [Host] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Host
+                    [value:protected] => localhost
+                )
+
+            [Connection] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Connection
+                    [value:protected] => keep-alive
+                )
+
+            [Sec-Ch-Ua] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Sec-Ch-Ua
+                    [value:protected] => "Chromium";v="92", " Not A;Brand";v="99", "Google Chrome";v="92"
+                )
+
+            [Accept] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Accept
+                    [value:protected] => application/json, text/javascript, */*; q=0.01
+                )
+
+            [X-Requested-With] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => X-Requested-With
+                    [value:protected] => XMLHttpRequest
+                )
+
+            [Sec-Ch-Ua-Mobile] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Sec-Ch-Ua-Mobile
+                    [value:protected] => ?0
+                )
+
+            [User-Agent] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => User-Agent
+                    [value:protected] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+                )
+
+            [Origin] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Origin
+                    [value:protected] => http://localhost
+                )
+
+            [Sec-Fetch-Site] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Sec-Fetch-Site
+                    [value:protected] => same-origin
+                )
+
+            [Sec-Fetch-Mode] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Sec-Fetch-Mode
+                    [value:protected] => cors
+                )
+
+            [Sec-Fetch-Dest] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Sec-Fetch-Dest
+                    [value:protected] => empty
+                )
+
+            [Referer] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Referer
+                    [value:protected] => http://localhost/attendance/public_html/register
+                )
+
+            [Accept-Encoding] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Accept-Encoding
+                    [value:protected] => gzip, deflate, br
+                )
+
+            [Accept-Language] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Accept-Language
+                    [value:protected] => en,en-US;q=0.9,en-GB;q=0.8,fil;q=0.7
+                )
+
+            [Cookie] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Cookie
+                    [value:protected] => mailinglist=true; _ga=GA1.1.1678477077.1629266017; debug-bar-state=minimized; _ga_8SPL7E0RPH=GS1.1.1629861550.2.1.1629861598.0; ci_session=u62ck5r5m7gpibdctr53teu199nhvh5r
+                )
+
+        )
+
+    [headerMap:protected] => Array
+        (
+            [content-type] => Content-Type
+            [host] => Host
+            [connection] => Connection
+            [sec-ch-ua] => Sec-Ch-Ua
+            [accept] => Accept
+            [x-requested-with] => X-Requested-With
+            [sec-ch-ua-mobile] => Sec-Ch-Ua-Mobile
+            [user-agent] => User-Agent
+            [origin] => Origin
+            [sec-fetch-site] => Sec-Fetch-Site
+            [sec-fetch-mode] => Sec-Fetch-Mode
+            [sec-fetch-dest] => Sec-Fetch-Dest
+            [referer] => Referer
+            [accept-encoding] => Accept-Encoding
+            [accept-language] => Accept-Language
+            [cookie] => Cookie
+        )
+
+    [ipAddress:protected] => ::1
+    [globals:protected] => Array
+        (
+            [server] => Array
+                (
+                    [REDIRECT_MIBDIRS] => C:/xampp8/php/extras/mibs
+                    [REDIRECT_MYSQL_HOME] => \xampp\mysql\bin
+                    [REDIRECT_OPENSSL_CONF] => C:/xampp8/apache/bin/openssl.cnf
+                    [REDIRECT_PHP_PEAR_SYSCONF_DIR] => \xampp\php
+                    [REDIRECT_PHPRC] => \xampp\php
+                    [REDIRECT_TMP] => \xampp\tmp
+                    [REDIRECT_STATUS] => 200
+                    [MIBDIRS] => C:/xampp8/php/extras/mibs
+                    [MYSQL_HOME] => \xampp\mysql\bin
+                    [OPENSSL_CONF] => C:/xampp8/apache/bin/openssl.cnf
+                    [PHP_PEAR_SYSCONF_DIR] => \xampp\php
+                    [PHPRC] => \xampp\php
+                    [TMP] => \xampp\tmp
+                    [HTTP_HOST] => localhost
+                    [HTTP_CONNECTION] => keep-alive
+                    [CONTENT_LENGTH] => 223
+                    [HTTP_SEC_CH_UA] => "Chromium";v="92", " Not A;Brand";v="99", "Google Chrome";v="92"
+                    [HTTP_ACCEPT] => application/json, text/javascript, */*; q=0.01
+                    [HTTP_X_REQUESTED_WITH] => XMLHttpRequest
+                    [HTTP_SEC_CH_UA_MOBILE] => ?0
+                    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+                    [CONTENT_TYPE] => application/x-www-form-urlencoded; charset=UTF-8
+                    [HTTP_ORIGIN] => http://localhost
+                    [HTTP_SEC_FETCH_SITE] => same-origin
+                    [HTTP_SEC_FETCH_MODE] => cors
+                    [HTTP_SEC_FETCH_DEST] => empty
+                    [HTTP_REFERER] => http://localhost/attendance/public_html/register
+                    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+                    [HTTP_ACCEPT_LANGUAGE] => en,en-US;q=0.9,en-GB;q=0.8,fil;q=0.7
+                    [HTTP_COOKIE] => mailinglist=true; _ga=GA1.1.1678477077.1629266017; debug-bar-state=minimized; _ga_8SPL7E0RPH=GS1.1.1629861550.2.1.1629861598.0; ci_session=u62ck5r5m7gpibdctr53teu199nhvh5r
+                    [PATH] => C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\chie_isay\AppData\Local\Microsoft\WindowsApps;C:\Users\chie_isay\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\chie_isay\AppData\Roaming\Composer\vendor\bin, C:\php-7.4;C:\Program Files (x86)\GitExtensions\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\chie_isay\AppData\Local\Microsoft\WindowsApps;C:\Users\chie_isay\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\chie_isay\AppData\Roaming\Composer\vendor\bin;
+                    [SystemRoot] => C:\WINDOWS
+                    [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+                    [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+                    [WINDIR] => C:\WINDOWS
+                    [SERVER_SIGNATURE] => 
+                    [SERVER_SOFTWARE] => Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.9
+                    [SERVER_NAME] => localhost
+                    [SERVER_ADDR] => ::1
+                    [SERVER_PORT] => 80
+                    [REMOTE_ADDR] => ::1
+                    [DOCUMENT_ROOT] => C:/xampp8/htdocs
+                    [REQUEST_SCHEME] => http
+                    [CONTEXT_PREFIX] => 
+                    [CONTEXT_DOCUMENT_ROOT] => C:/xampp8/htdocs
+                    [SERVER_ADMIN] => postmaster@localhost
+                    [SCRIPT_FILENAME] => C:/xampp8/htdocs/attendance/public_html/index.php
+                    [REMOTE_PORT] => 49871
+                    [REDIRECT_URL] => /attendance/public_html/register/ajax_signup
+                    [GATEWAY_INTERFACE] => CGI/1.1
+                    [SERVER_PROTOCOL] => HTTP/1.1
+                    [REQUEST_METHOD] => POST
+                    [QUERY_STRING] => 
+                    [REQUEST_URI] => /attendance/public_html/register/ajax_signup
+                    [SCRIPT_NAME] => /attendance/public_html/index.php
+                    [PATH_INFO] => /register/ajax_signup
+                    [PATH_TRANSLATED] => C:\xampp8\htdocs\register\ajax_signup
+                    [PHP_SELF] => /attendance/public_html/index.php/register/ajax_signup
+                    [REQUEST_TIME_FLOAT] => 1630072181.95
+                    [REQUEST_TIME] => 1630072181
+                )
+
+            [get] => Array
+                (
+                )
+
+            [post] => Array
+                (
+                    [floatingLrn] => 
+                    [floatingEmail] => 
+                    [floatingType] => Open this select menu
+                    [floatingFirstName] => 
+                    [floatingMiddleName] => 
+                    [floatingLastName] => 
+                    [floatingAddress] => 
+                    [floatingParents] => 
+                    [floatingNumber] => 
+                    [floatingBirth] => 
+                    [icon-input] => 1
+                    [custom-switch-checkbox] => on
+                )
+
+        )
+
+)
+
+INFO - 2021-08-27 08:49:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-08-27 21:49:47 --> GGGGGGGGGGGG:  CodeIgniter\HTTP\IncomingRequest Object
+(
+    [enableCSRF:protected] => 
+    [uri] => CodeIgniter\HTTP\URI Object
+        (
+            [uriString:protected] => 
+            [segments:protected] => Array
+                (
+                    [0] => register
+                    [1] => ajax_signup
+                )
+
+            [scheme:protected] => http
+            [user:protected] => 
+            [password:protected] => 
+            [host:protected] => localhost
+            [port:protected] => 
+            [path:protected] => register/ajax_signup
+            [fragment:protected] => 
+            [query:protected] => Array
+                (
+                )
+
+            [defaultPorts:protected] => Array
+                (
+                    [http] => 80
+                    [https] => 443
+                    [ftp] => 21
+                    [sftp] => 22
+                )
+
+            [showPassword:protected] => 
+            [silent:protected] => 
+            [rawQueryString:protected] => 
+        )
+
+    [path:protected] => register/ajax_signup
+    [files:protected] => 
+    [negotiator:protected] => 
+    [defaultLocale:protected] => en
+    [locale:protected] => en
+    [validLocales:protected] => Array
+        (
+            [0] => en
+        )
+
+    [config] => Config\App Object
+        (
+            [baseURL] => http://localhost/attendance/public_html/
+            [indexPage] => 
+            [uriProtocol] => REQUEST_URI
+            [defaultLocale] => en
+            [negotiateLocale] => 
+            [supportedLocales] => Array
+                (
+                    [0] => en
+                )
+
+            [appTimezone] => America/Chicago
+            [charset] => UTF-8
+            [forceGlobalSecureRequests] => 
+            [sessionDriver] => CodeIgniter\Session\Handlers\FileHandler
+            [sessionCookieName] => ci_session
+            [sessionExpiration] => 7200
+            [sessionSavePath] => C:\xampp8\htdocs\attendance\writable\session
+            [sessionMatchIP] => 
+            [sessionTimeToUpdate] => 300
+            [sessionRegenerateDestroy] => 
+            [cookiePrefix] => 
+            [cookieDomain] => 
+            [cookiePath] => /
+            [cookieSecure] => 
+            [cookieHTTPOnly] => 1
+            [cookieSameSite] => Lax
+            [proxyIPs] => 
+            [CSRFTokenName] => csrf_test_name
+            [CSRFHeaderName] => X-CSRF-TOKEN
+            [CSRFCookieName] => csrf_cookie_name
+            [CSRFExpire] => 7200
+            [CSRFRegenerate] => 1
+            [CSRFRedirect] => 1
+            [CSRFSameSite] => Lax
+            [CSPEnabled] => 
+        )
+
+    [oldInput:protected] => Array
+        (
+        )
+
+    [userAgent:protected] => CodeIgniter\HTTP\UserAgent Object
+        (
+            [agent:protected] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+            [isBrowser:protected] => 1
+            [isRobot:protected] => 
+            [isMobile:protected] => 
+            [config:protected] => Config\UserAgents Object
+                (
+                    [platforms] => Array
+                        (
+                            [windows nt 10.0] => Windows 10
+                            [windows nt 6.3] => Windows 8.1
+                            [windows nt 6.2] => Windows 8
+                            [windows nt 6.1] => Windows 7
+                            [windows nt 6.0] => Windows Vista
+                            [windows nt 5.2] => Windows 2003
+                            [windows nt 5.1] => Windows XP
+                            [windows nt 5.0] => Windows 2000
+                            [windows nt 4.0] => Windows NT 4.0
+                            [winnt4.0] => Windows NT 4.0
+                            [winnt 4.0] => Windows NT
+                            [winnt] => Windows NT
+                            [windows 98] => Windows 98
+                            [win98] => Windows 98
+                            [windows 95] => Windows 95
+                            [win95] => Windows 95
+                            [windows phone] => Windows Phone
+                            [windows] => Unknown Windows OS
+                            [android] => Android
+                            [blackberry] => BlackBerry
+                            [iphone] => iOS
+                            [ipad] => iOS
+                            [ipod] => iOS
+                            [os x] => Mac OS X
+                            [ppc mac] => Power PC Mac
+                            [freebsd] => FreeBSD
+                            [ppc] => Macintosh
+                            [linux] => Linux
+                            [debian] => Debian
+                            [sunos] => Sun Solaris
+                            [beos] => BeOS
+                            [apachebench] => ApacheBench
+                            [aix] => AIX
+                            [irix] => Irix
+                            [osf] => DEC OSF
+                            [hp-ux] => HP-UX
+                            [netbsd] => NetBSD
+                            [bsdi] => BSDi
+                            [openbsd] => OpenBSD
+                            [gnu] => GNU/Linux
+                            [unix] => Unknown Unix OS
+                            [symbian] => Symbian OS
+                        )
+
+                    [browsers] => Array
+                        (
+                            [OPR] => Opera
+                            [Flock] => Flock
+                            [Edge] => Spartan
+                            [Edg] => Edge
+                            [Chrome] => Chrome
+                            [Opera.*?Version] => Opera
+                            [Opera] => Opera
+                            [MSIE] => Internet Explorer
+                            [Internet Explorer] => Internet Explorer
+                            [Trident.* rv] => Internet Explorer
+                            [Shiira] => Shiira
+                            [Firefox] => Firefox
+                            [Chimera] => Chimera
+                            [Phoenix] => Phoenix
+                            [Firebird] => Firebird
+                            [Camino] => Camino
+                            [Netscape] => Netscape
+                            [OmniWeb] => OmniWeb
+                            [Safari] => Safari
+                            [Mozilla] => Mozilla
+                            [Konqueror] => Konqueror
+                            [icab] => iCab
+                            [Lynx] => Lynx
+                            [Links] => Links
+                            [hotjava] => HotJava
+                            [amaya] => Amaya
+                            [IBrowse] => IBrowse
+                            [Maxthon] => Maxthon
+                            [Ubuntu] => Ubuntu Web Browser
+                            [Vivaldi] => Vivaldi
+                        )
+
+                    [mobiles] => Array
+                        (
+                            [mobileexplorer] => Mobile Explorer
+                            [palmsource] => Palm
+                            [palmscape] => Palmscape
+                            [motorola] => Motorola
+                            [nokia] => Nokia
+                            [palm] => Palm
+                            [iphone] => Apple iPhone
+                            [ipad] => iPad
+                            [ipod] => Apple iPod Touch
+                            [sony] => Sony Ericsson
+                            [ericsson] => Sony Ericsson
+                            [blackberry] => BlackBerry
+                            [cocoon] => O2 Cocoon
+                            [blazer] => Treo
+                            [lg] => LG
+                            [amoi] => Amoi
+                            [xda] => XDA
+                            [mda] => MDA
+                            [vario] => Vario
+                            [htc] => HTC
+                            [samsung] => Samsung
+                            [sharp] => Sharp
+                            [sie-] => Siemens
+                            [alcatel] => Alcatel
+                            [benq] => BenQ
+                            [ipaq] => HP iPaq
+                            [mot-] => Motorola
+                            [playstation portable] => PlayStation Portable
+                            [playstation 3] => PlayStation 3
+                            [playstation vita] => PlayStation Vita
+                            [hiptop] => Danger Hiptop
+                            [nec-] => NEC
+                            [panasonic] => Panasonic
+                            [philips] => Philips
+                            [sagem] => Sagem
+                            [sanyo] => Sanyo
+                            [spv] => SPV
+                            [zte] => ZTE
+                            [sendo] => Sendo
+                            [nintendo dsi] => Nintendo DSi
+                            [nintendo ds] => Nintendo DS
+                            [nintendo 3ds] => Nintendo 3DS
+                            [wii] => Nintendo Wii
+                            [open web] => Open Web
+                            [openweb] => OpenWeb
+                            [android] => Android
+                            [symbian] => Symbian
+                            [SymbianOS] => SymbianOS
+                            [elaine] => Palm
+                            [series60] => Symbian S60
+                            [windows ce] => Windows CE
+                            [obigo] => Obigo
+                            [netfront] => Netfront Browser
+                            [openwave] => Openwave Browser
+                            [mobilexplorer] => Mobile Explorer
+                            [operamini] => Opera Mini
+                            [opera mini] => Opera Mini
+                            [opera mobi] => Opera Mobile
+                            [fennec] => Firefox Mobile
+                            [digital paths] => Digital Paths
+                            [avantgo] => AvantGo
+                            [xiino] => Xiino
+                            [novarra] => Novarra Transcoder
+                            [vodafone] => Vodafone
+                            [docomo] => NTT DoCoMo
+                            [o2] => O2
+                            [mobile] => Generic Mobile
+                            [wireless] => Generic Mobile
+                            [j2me] => Generic Mobile
+                            [midp] => Generic Mobile
+                            [cldc] => Generic Mobile
+                            [up.link] => Generic Mobile
+                            [up.browser] => Generic Mobile
+                            [smartphone] => Generic Mobile
+                            [cellphone] => Generic Mobile
+                        )
+
+                    [robots] => Array
+                        (
+                            [googlebot] => Googlebot
+                            [msnbot] => MSNBot
+                            [baiduspider] => Baiduspider
+                            [bingbot] => Bing
+                            [slurp] => Inktomi Slurp
+                            [yahoo] => Yahoo
+                            [ask jeeves] => Ask Jeeves
+                            [fastcrawler] => FastCrawler
+                            [infoseek] => InfoSeek Robot 1.0
+                            [lycos] => Lycos
+                            [yandex] => YandexBot
+                            [mediapartners-google] => MediaPartners Google
+                            [CRAZYWEBCRAWLER] => Crazy Webcrawler
+                            [adsbot-google] => AdsBot Google
+                            [feedfetcher-google] => Feedfetcher Google
+                            [curious george] => Curious George
+                            [ia_archiver] => Alexa Crawler
+                            [MJ12bot] => Majestic-12
+                            [Uptimebot] => Uptimebot
+                        )
+
+                )
+
+            [platform:protected] => Windows 10
+            [browser:protected] => Chrome
+            [version:protected] => 92.0.4515.159
+            [mobile:protected] => 
+            [robot:protected] => 
+            [referrer:protected] => 
+        )
+
+    [proxyIPs:protected] => 
+    [method:protected] => POST
+    [protocolVersion:protected] => 1.1
+    [validProtocolVersions:protected] => Array
+        (
+            [0] => 1.0
+            [1] => 1.1
+            [2] => 2.0
+        )
+
+    [body:protected] => floatingLrn=324324324324324&floatingEmail=&floatingType=Open+this+select+menu&floatingFirstName=&floatingMiddleName=&floatingLastName=&floatingAddress=&floatingParents=&floatingNumber=&floatingBirth=&icon-input=1&custom-switch-checkbox=on
+    [headers:protected] => Array
+        (
+            [Content-Type] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Content-Type
+                    [value:protected] => application/x-www-form-urlencoded; charset=UTF-8
+                )
+
+            [Host] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Host
+                    [value:protected] => localhost
+                )
+
+            [Connection] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Connection
+                    [value:protected] => keep-alive
+                )
+
+            [Sec-Ch-Ua] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Sec-Ch-Ua
+                    [value:protected] => "Chromium";v="92", " Not A;Brand";v="99", "Google Chrome";v="92"
+                )
+
+            [Accept] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Accept
+                    [value:protected] => application/json, text/javascript, */*; q=0.01
+                )
+
+            [X-Requested-With] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => X-Requested-With
+                    [value:protected] => XMLHttpRequest
+                )
+
+            [Sec-Ch-Ua-Mobile] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Sec-Ch-Ua-Mobile
+                    [value:protected] => ?0
+                )
+
+            [User-Agent] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => User-Agent
+                    [value:protected] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+                )
+
+            [Origin] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Origin
+                    [value:protected] => http://localhost
+                )
+
+            [Sec-Fetch-Site] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Sec-Fetch-Site
+                    [value:protected] => same-origin
+                )
+
+            [Sec-Fetch-Mode] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Sec-Fetch-Mode
+                    [value:protected] => cors
+                )
+
+            [Sec-Fetch-Dest] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Sec-Fetch-Dest
+                    [value:protected] => empty
+                )
+
+            [Referer] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Referer
+                    [value:protected] => http://localhost/attendance/public_html/register
+                )
+
+            [Accept-Encoding] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Accept-Encoding
+                    [value:protected] => gzip, deflate, br
+                )
+
+            [Accept-Language] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Accept-Language
+                    [value:protected] => en,en-US;q=0.9,en-GB;q=0.8,fil;q=0.7
+                )
+
+            [Cookie] => CodeIgniter\HTTP\Header Object
+                (
+                    [name:protected] => Cookie
+                    [value:protected] => mailinglist=true; _ga=GA1.1.1678477077.1629266017; debug-bar-state=minimized; _ga_8SPL7E0RPH=GS1.1.1629861550.2.1.1629861598.0; ci_session=u62ck5r5m7gpibdctr53teu199nhvh5r
+                )
+
+        )
+
+    [headerMap:protected] => Array
+        (
+            [content-type] => Content-Type
+            [host] => Host
+            [connection] => Connection
+            [sec-ch-ua] => Sec-Ch-Ua
+            [accept] => Accept
+            [x-requested-with] => X-Requested-With
+            [sec-ch-ua-mobile] => Sec-Ch-Ua-Mobile
+            [user-agent] => User-Agent
+            [origin] => Origin
+            [sec-fetch-site] => Sec-Fetch-Site
+            [sec-fetch-mode] => Sec-Fetch-Mode
+            [sec-fetch-dest] => Sec-Fetch-Dest
+            [referer] => Referer
+            [accept-encoding] => Accept-Encoding
+            [accept-language] => Accept-Language
+            [cookie] => Cookie
+        )
+
+    [ipAddress:protected] => ::1
+    [globals:protected] => Array
+        (
+            [server] => Array
+                (
+                    [REDIRECT_MIBDIRS] => C:/xampp8/php/extras/mibs
+                    [REDIRECT_MYSQL_HOME] => \xampp\mysql\bin
+                    [REDIRECT_OPENSSL_CONF] => C:/xampp8/apache/bin/openssl.cnf
+                    [REDIRECT_PHP_PEAR_SYSCONF_DIR] => \xampp\php
+                    [REDIRECT_PHPRC] => \xampp\php
+                    [REDIRECT_TMP] => \xampp\tmp
+                    [REDIRECT_STATUS] => 200
+                    [MIBDIRS] => C:/xampp8/php/extras/mibs
+                    [MYSQL_HOME] => \xampp\mysql\bin
+                    [OPENSSL_CONF] => C:/xampp8/apache/bin/openssl.cnf
+                    [PHP_PEAR_SYSCONF_DIR] => \xampp\php
+                    [PHPRC] => \xampp\php
+                    [TMP] => \xampp\tmp
+                    [HTTP_HOST] => localhost
+                    [HTTP_CONNECTION] => keep-alive
+                    [CONTENT_LENGTH] => 238
+                    [HTTP_SEC_CH_UA] => "Chromium";v="92", " Not A;Brand";v="99", "Google Chrome";v="92"
+                    [HTTP_ACCEPT] => application/json, text/javascript, */*; q=0.01
+                    [HTTP_X_REQUESTED_WITH] => XMLHttpRequest
+                    [HTTP_SEC_CH_UA_MOBILE] => ?0
+                    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36
+                    [CONTENT_TYPE] => application/x-www-form-urlencoded; charset=UTF-8
+                    [HTTP_ORIGIN] => http://localhost
+                    [HTTP_SEC_FETCH_SITE] => same-origin
+                    [HTTP_SEC_FETCH_MODE] => cors
+                    [HTTP_SEC_FETCH_DEST] => empty
+                    [HTTP_REFERER] => http://localhost/attendance/public_html/register
+                    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br
+                    [HTTP_ACCEPT_LANGUAGE] => en,en-US;q=0.9,en-GB;q=0.8,fil;q=0.7
+                    [HTTP_COOKIE] => mailinglist=true; _ga=GA1.1.1678477077.1629266017; debug-bar-state=minimized; _ga_8SPL7E0RPH=GS1.1.1629861550.2.1.1629861598.0; ci_session=u62ck5r5m7gpibdctr53teu199nhvh5r
+                    [PATH] => C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\chie_isay\AppData\Local\Microsoft\WindowsApps;C:\Users\chie_isay\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\chie_isay\AppData\Roaming\Composer\vendor\bin, C:\php-7.4;C:\Program Files (x86)\GitExtensions\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\chie_isay\AppData\Local\Microsoft\WindowsApps;C:\Users\chie_isay\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\chie_isay\AppData\Roaming\Composer\vendor\bin;
+                    [SystemRoot] => C:\WINDOWS
+                    [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+                    [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+                    [WINDIR] => C:\WINDOWS
+                    [SERVER_SIGNATURE] => 
+                    [SERVER_SOFTWARE] => Apache/2.4.48 (Win64) OpenSSL/1.1.1k PHP/8.0.9
+                    [SERVER_NAME] => localhost
+                    [SERVER_ADDR] => ::1
+                    [SERVER_PORT] => 80
+                    [REMOTE_ADDR] => ::1
+                    [DOCUMENT_ROOT] => C:/xampp8/htdocs
+                    [REQUEST_SCHEME] => http
+                    [CONTEXT_PREFIX] => 
+                    [CONTEXT_DOCUMENT_ROOT] => C:/xampp8/htdocs
+                    [SERVER_ADMIN] => postmaster@localhost
+                    [SCRIPT_FILENAME] => C:/xampp8/htdocs/attendance/public_html/index.php
+                    [REMOTE_PORT] => 63039
+                    [REDIRECT_URL] => /attendance/public_html/register/ajax_signup
+                    [GATEWAY_INTERFACE] => CGI/1.1
+                    [SERVER_PROTOCOL] => HTTP/1.1
+                    [REQUEST_METHOD] => POST
+                    [QUERY_STRING] => 
+                    [REQUEST_URI] => /attendance/public_html/register/ajax_signup
+                    [SCRIPT_NAME] => /attendance/public_html/index.php
+                    [PATH_INFO] => /register/ajax_signup
+                    [PATH_TRANSLATED] => C:\xampp8\htdocs\register\ajax_signup
+                    [PHP_SELF] => /attendance/public_html/index.php/register/ajax_signup
+                    [REQUEST_TIME_FLOAT] => 1630072187.8557
+                    [REQUEST_TIME] => 1630072187
+                )
+
+            [get] => Array
+                (
+                )
+
+            [post] => Array
+                (
+                    [floatingLrn] => 324324324324324
+                    [floatingEmail] => 
+                    [floatingType] => Open this select menu
+                    [floatingFirstName] => 
+                    [floatingMiddleName] => 
+                    [floatingLastName] => 
+                    [floatingAddress] => 
+                    [floatingParents] => 
+                    [floatingNumber] => 
+                    [floatingBirth] => 
+                    [icon-input] => 1
+                    [custom-switch-checkbox] => on
+                )
+
+        )
+
+)
+
+INFO - 2021-08-27 08:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-08-27 21:50:55 --> Cannot use object of type CodeIgniter\HTTP\IncomingRequest as array
+#0 C:\xampp8\htdocs\attendance\system\CodeIgniter.php(928): App\Controllers\Register->ajax_signup()
+#1 C:\xampp8\htdocs\attendance\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#2 C:\xampp8\htdocs\attendance\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp8\htdocs\attendance\public_html\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+INFO - 2021-08-27 08:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-08-27 21:52:09 --> Cannot use object of type CodeIgniter\HTTP\IncomingRequest as array
+#0 C:\xampp8\htdocs\attendance\system\CodeIgniter.php(928): App\Controllers\Register->ajax_signup()
+#1 C:\xampp8\htdocs\attendance\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#2 C:\xampp8\htdocs\attendance\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp8\htdocs\attendance\public_html\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+INFO - 2021-08-27 08:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-08-27 21:52:48 --> GGGGGGGGGGGG:  Array
+(
+    [floatingLrn] => 324324324324324
+    [floatingEmail] => 
+    [floatingType] => Open this select menu
+    [floatingFirstName] => 
+    [floatingMiddleName] => 
+    [floatingLastName] => 
+    [floatingAddress] => 
+    [floatingParents] => 
+    [floatingNumber] => 
+    [floatingBirth] => 
+    [icon-input] => 1
+    [custom-switch-checkbox] => on
+)
+
+INFO - 2021-08-27 08:53:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-08-27 21:53:06 --> GGGGGGGGGGGG:  Array
+(
+    [floatingLrn] => 324324324324324
+    [floatingEmail] => 
+    [floatingType] => Open this select menu
+    [floatingFirstName] => 
+    [floatingMiddleName] => 
+    [floatingLastName] => 
+    [floatingAddress] => 
+    [floatingParents] => 
+    [floatingNumber] => 
+    [floatingBirth] => 
+    [icon-input] => 1
+)
+
+CRITICAL - 2021-08-27 08:57:19 --> syntax error, unexpected single-quoted string "off"
+#0 C:\xampp8\htdocs\attendance\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp8\\htdoc...')
+#1 C:\xampp8\htdocs\attendance\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp8\htdocs\attendance\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#4 C:\xampp8\htdocs\attendance\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp8\htdocs\attendance\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp8\htdocs\attendance\public_html\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-08-27 08:57:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 08:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-08-27 21:57:46 --> GGGGGGGGGGGG:  Array
+(
+    [floatingLrn] => 
+    [floatingEmail] => 
+    [floatingType] => Open this select menu
+    [floatingFirstName] => 
+    [floatingMiddleName] => 
+    [floatingLastName] => 
+    [floatingAddress] => 
+    [floatingParents] => 
+    [floatingNumber] => 
+    [floatingBirth] => 
+    [gender] => 1
+    [switch-status] => on
+)
+
+INFO - 2021-08-27 08:58:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 08:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-08-27 21:58:45 --> GGGGGGGGGGGG:  Array
+(
+    [floatingLrn] => 
+    [floatingEmail] => 
+    [floatingType] => 
+    [floatingFirstName] => 
+    [floatingMiddleName] => 
+    [floatingLastName] => 
+    [floatingAddress] => 
+    [floatingParents] => 
+    [floatingNumber] => 
+    [floatingBirth] => 
+    [gender] => 1
+    [switch-status] => on
+)
+
+INFO - 2021-08-27 09:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 09:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 09:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 09:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 09:05:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-08-27 22:05:17 --> GGGGGGGGGGGG:  Array
+(
+    [floatingLrn] => 
+    [floatingEmail] => 
+    [floatingType] => 
+    [floatingFirstName] => 
+    [floatingMiddleName] => 
+    [floatingLastName] => 
+    [floatingAddress] => 
+    [floatingParents] => 
+    [floatingNumber] => 
+    [floatingBirth] => 
+    [gender] => 1
+    [switch-status] => on
+)
+
+INFO - 2021-08-27 09:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 09:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 09:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 09:10:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 09:10:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 09:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 09:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 09:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 09:12:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-08-27 22:12:58 --> GGGGGGGGGGGG:  Array
+(
+    [floatingLrn] => 
+    [floatingEmail] => 
+    [floatingType] => 
+    [floatingFirstName] => 
+    [floatingMiddleName] => 
+    [floatingLastName] => 
+    [floatingAddress] => 
+    [floatingParents] => 
+    [floatingNumber] => 
+    [floatingBirth] => 
+    [gender] => 1
+    [switch-status] => on
+)
+
+INFO - 2021-08-27 09:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-08-27 22:13:31 --> GGGGGGGGGGGG:  Array
+(
+    [floatingLrn] => 123456789012
+    [floatingEmail] => chiecruzcayanan@gmail.com
+    [floatingType] => 1
+    [floatingFirstName] => Reselito
+    [floatingMiddleName] => C
+    [floatingLastName] => Cayanan
+    [floatingAddress] => 220 Macopa
+Maligaya
+    [floatingParents] => tst
+    [floatingNumber] => 09278077727
+    [floatingBirth] => 2021-08-09
+    [gender] => 1
+)
+
+INFO - 2021-08-27 09:14:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-08-27 22:14:22 --> GGGGGGGGGGGG:  Array
+(
+    [floatingLrn] => 123456789012
+    [floatingEmail] => chiecruzcayanan@gmail.com
+    [floatingType] => 1
+    [floatingFirstName] => Reselito
+    [floatingMiddleName] => C
+    [floatingLastName] => Cayanan
+    [floatingAddress] => 220 Macopa
+Maligaya
+    [floatingParents] => tst
+    [floatingNumber] => 09278077727
+    [floatingBirth] => 2021-08-09
+    [gender] => 1
+)
+
+INFO - 2021-08-27 09:14:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-08-27 22:14:56 --> GGGGGGGGGGGG:  Array
+(
+    [floatingLrn] => 123456789012
+    [floatingEmail] => chiecruzcayanan@gmail.com
+    [floatingType] => 1
+    [floatingFirstName] => Reselito
+    [floatingMiddleName] => C
+    [floatingLastName] => Cayanan
+    [floatingAddress] => 220 Macopa
+Maligaya
+    [floatingParents] => tst
+    [floatingNumber] => 09278077727
+    [floatingBirth] => 2021-08-09
+    [gender] => 1
+)
+
+INFO - 2021-08-27 09:15:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-08-27 22:15:26 --> GGGGGGGGGGGG:  Array
+(
+    [floatingLrn] => 123456789012
+    [floatingEmail] => chiecruzcayanan@gmail.com
+    [floatingType] => 1
+    [floatingFirstName] => Reselito
+    [floatingMiddleName] => C
+    [floatingLastName] => Cayanan
+    [floatingAddress] => 220 Macopa
+Maligaya
+    [floatingParents] => tst
+    [floatingNumber] => 09278077727
+    [floatingBirth] => 2021-08-09
+    [gender] => 1
+)
+
+INFO - 2021-08-27 09:16:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-08-27 22:16:12 --> GGGGGGGGGGGG:  Array
+(
+    [floatingLrn] => 123456789012
+    [floatingEmail] => chiecruzcayanan@gmail.com
+    [floatingType] => 1
+    [floatingFirstName] => Reselito
+    [floatingMiddleName] => C
+    [floatingLastName] => Cayanan
+    [floatingAddress] => 220 Macopa
+Maligaya
+    [floatingParents] => tst
+    [floatingNumber] => 09278077727
+    [floatingBirth] => 2021-08-09
+    [gender] => 1
+)
+
+INFO - 2021-08-27 09:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-08-27 22:18:09 --> GGGGGGGGGGGG:  Array
+(
+    [floatingLrn] => 123456789012
+    [floatingEmail] => chiecruzcayanan@gmail.com
+    [floatingType] => 1
+    [floatingFirstName] => Reselito
+    [floatingMiddleName] => C
+    [floatingLastName] => Cayanan
+    [floatingAddress] => 220 Macopa
+Maligaya
+    [floatingParents] => tst
+    [floatingNumber] => 09278077727
+    [floatingBirth] => 2021-08-09
+    [gender] => 1
+)
+
+INFO - 2021-08-27 09:18:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-08-27 22:18:24 --> GGGGGGGGGGGG:  Array
+(
+    [floatingLrn] => 123456789012
+    [floatingEmail] => chiecruzcayanan@gmail.com
+    [floatingType] => 1
+    [floatingFirstName] => Reselito
+    [floatingMiddleName] => C
+    [floatingLastName] => Cayanan
+    [floatingAddress] => 220 Macopa
+Maligaya
+    [floatingParents] => tst
+    [floatingNumber] => 09278077727
+    [floatingBirth] => 2021-08-09
+    [gender] => 1
+)
+
+INFO - 2021-08-27 09:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-08-27 22:19:20 --> GGGGGGGGGGGG:  Array
+(
+    [floatingLrn] => 123456789012
+    [floatingEmail] => chiecruzcayanan@gmail.com
+    [floatingType] => 1
+    [floatingFirstName] => Reselito
+    [floatingMiddleName] => C
+    [floatingLastName] => Cayanan
+    [floatingAddress] => 220 Macopa
+Maligaya
+    [floatingParents] => tst
+    [floatingNumber] => 09278077727
+    [floatingBirth] => 2021-08-09
+    [gender] => 1
+)
+
+INFO - 2021-08-27 09:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-08-27 22:20:39 --> GGGGGGGGGGGG:  Array
+(
+    [floatingLrn] => 123456789012
+    [floatingEmail] => chiecruzcayanan@gmail.com
+    [floatingType] => 1
+    [floatingFirstName] => Reselito
+    [floatingMiddleName] => C
+    [floatingLastName] => Cayanan
+    [floatingAddress] => 220 Macopa
+Maligaya
+    [floatingParents] => tst
+    [floatingNumber] => 09278077727
+    [floatingBirth] => 2021-08-09
+    [gender] => 1
+)
+
+INFO - 2021-08-27 09:22:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-08-27 22:22:03 --> GGGGGGGGGGGG:  Array
+(
+    [floatingLrn] => 123456789012
+    [floatingEmail] => chiecruzcayanan@gmail.com
+    [floatingType] => 1
+    [floatingFirstName] => Reselito
+    [floatingMiddleName] => C
+    [floatingLastName] => Cayanan
+    [floatingAddress] => 220 Macopa
+Maligaya
+    [floatingParents] => tst
+    [floatingNumber] => 09278077727
+    [floatingBirth] => 2021-08-09
+    [gender] => 1
+)
+
+INFO - 2021-08-27 09:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 09:22:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-08-27 22:22:42 --> GGGGGGGGGGGG:  Array
+(
+    [floatingLrn] => 123455677
+    [floatingEmail] => chiecruzcayanan@gmail.com
+    [floatingType] => 
+    [floatingFirstName] => Reselito
+    [floatingMiddleName] => C
+    [floatingLastName] => Cayanan
+    [floatingAddress] => 220 Macopa
+Maligaya
+    [floatingParents] => test
+    [floatingNumber] => 09278077727
+    [floatingBirth] => 2021-12-12
+    [gender] => 1
+    [floatingGrade] => 1
+    [floatingSection] => 1
+    [floatingStrand] => 1
+)
+
+INFO - 2021-08-27 09:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-08-27 22:22:47 --> GGGGGGGGGGGG:  Array
+(
+    [floatingLrn] => 123455677
+    [floatingEmail] => chiecruzcayanan@gmail.com
+    [floatingType] => 1
+    [floatingFirstName] => Reselito
+    [floatingMiddleName] => C
+    [floatingLastName] => Cayanan
+    [floatingAddress] => 220 Macopa
+Maligaya
+    [floatingParents] => test
+    [floatingNumber] => 09278077727
+    [floatingBirth] => 2021-12-12
+    [gender] => 1
+    [floatingGrade] => 1
+    [floatingSection] => 1
+    [floatingStrand] => 1
+)
+
+INFO - 2021-08-27 09:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 09:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-08-27 22:24:01 --> GGGGGGGGGGGG:  Array
+(
+    [floatingLrn] => 
+    [floatingEmail] => 
+    [floatingType] => 
+    [floatingFirstName] => 
+    [floatingMiddleName] => 
+    [floatingLastName] => 
+    [floatingAddress] => 
+    [floatingParents] => 
+    [floatingNumber] => 
+    [floatingBirth] => 
+    [gender] => 1
+    [switch-status] => on
+    [floatingGrade] => Open this select menu
+    [floatingSection] => Open this select menu
+    [floatingStrand] => Open this select menu
+)
+
+INFO - 2021-08-27 09:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 09:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 09:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 09:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-08-27 22:26:17 --> GGGGGGGGGGGG:  Array
+(
+    [floatingLrn] => 
+    [floatingEmail] => 
+    [floatingType] => 
+    [floatingFirstName] => 
+    [floatingMiddleName] => 
+    [floatingLastName] => 
+    [floatingAddress] => 
+    [floatingParents] => 
+    [floatingNumber] => 
+    [floatingBirth] => 1111-11-11
+    [gender] => 1
+    [switch-status] => on
+    [floatingGrade] => Open this select menu
+    [floatingSection] => Open this select menu
+    [floatingStrand] => Open this select menu
+)
+
+INFO - 2021-08-27 09:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 09:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 09:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-08-27 22:28:18 --> GGGGGGGGGGGG:  Array
+(
+    [floatingLrn] => 1111
+    [floatingEmail] => chiecruzcayanan@gmail.com
+    [floatingType] => 1
+    [floatingFirstName] => Reselito
+    [floatingMiddleName] => C
+    [floatingLastName] => Cayanan
+    [floatingAddress] => 220 Macopa
+Maligaya
+    [floatingParents] => 111
+    [floatingNumber] => 09278077727
+    [floatingBirth] => 1111-11-11
+    [gender] => 1
+    [switch-status] => on
+    [floatingGrade] => 7
+    [floatingSection] => 2
+    [floatingStrand] => 1
+)
+
+INFO - 2021-08-27 09:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 09:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 09:29:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-08-27 22:29:31 --> GGGGGGGGGGGG:  Array
+(
+    [floatingLrn] => 13232
+    [floatingEmail] => sharjess@gmail.com
+    [floatingType] => 1
+    [floatingFirstName] => Sharmaine
+    [floatingMiddleName] => c
+    [floatingLastName] => Cayanan
+    [floatingAddress] => 
+    [floatingParents] => wer
+    [floatingNumber] => 1322323
+    [floatingBirth] => 2222-22-22
+    [gender] => 1
+    [genter] => 2
+    [switch-status] => on
+    [floatingGrade] => 10
+    [floatingSection] => 2
+    [floatingStrand] => 1
+)
+
+INFO - 2021-08-27 09:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-08-27 22:29:36 --> GGGGGGGGGGGG:  Array
+(
+    [floatingLrn] => 13232
+    [floatingEmail] => sharjess@gmail.com
+    [floatingType] => 1
+    [floatingFirstName] => Sharmaine
+    [floatingMiddleName] => c
+    [floatingLastName] => Cayanan
+    [floatingAddress] => ewewewe
+    [floatingParents] => wer
+    [floatingNumber] => 1322323
+    [floatingBirth] => 2222-22-22
+    [gender] => 1
+    [genter] => 2
+    [switch-status] => on
+    [floatingGrade] => 10
+    [floatingSection] => 2
+    [floatingStrand] => 1
+)
+
+INFO - 2021-08-27 09:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 09:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-08-27 22:31:40 --> GGGGGGGGGGGG:  Array
+(
+    [floatingLrn] => 123123123213
+    [floatingEmail] => cayanan@gmail.com
+    [floatingType] => 1
+    [floatingFirstName] => Reselito
+    [floatingMiddleName] => C
+    [floatingLastName] => Cayanan
+    [floatingAddress] => 220 Macopa
+Maligaya
+    [floatingParents] => asdasdasd
+    [floatingNumber] => 09278077727
+    [floatingBirth] => 1111-11-11
+    [gender] => 1
+    [genter] => 2
+    [switch-status] => on
+    [floatingGrade] => 11
+    [floatingSection] => 2
+    [floatingStrand] => 1
+)
+
+INFO - 2021-08-27 10:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-08-27 23:07:01 --> GGGGGGGGGGGG:  Array
+(
+    [floatingLrn] => 
+    [floatingEmail] => 
+    [floatingType] => 
+    [floatingFirstName] => 
+    [floatingMiddleName] => 
+    [floatingLastName] => 
+    [floatingAddress] => 
+    [floatingParents] => 
+    [floatingNumber] => 
+    [floatingBirth] => 
+    [gender] => 1
+    [switch-status] => on
+    [floatingGrade] => Open this select menu
+    [floatingSection] => Open this select menu
+    [floatingStrand] => Open this select menu
+)
+
+INFO - 2021-08-27 10:09:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:09:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:16:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:21:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:22:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:26:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:30:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:31:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:31:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:35:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:36:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:36:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:39:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:41:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-08-27 23:41:23 --> Undefined variable $benefits
+#0 C:\xampp8\htdocs\attendance\app\Views\student\student_list.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp8\\htdoc...', 54)
+#1 C:\xampp8\htdocs\attendance\system\View\View.php(230): include('C:\\xampp8\\htdoc...')
+#2 C:\xampp8\htdocs\attendance\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8\htdocs\attendance\system\Common.php(1271): CodeIgniter\View\View->render('student/student...', Array, true)
+#4 C:\xampp8\htdocs\attendance\app\Views\template\index.php(185): view('student/student...')
+#5 C:\xampp8\htdocs\attendance\system\View\View.php(230): include('C:\\xampp8\\htdoc...')
+#6 C:\xampp8\htdocs\attendance\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp8\htdocs\attendance\system\Common.php(1271): CodeIgniter\View\View->render('template/index', Array, true)
+#8 C:\xampp8\htdocs\attendance\app\Controllers\Register.php(139): view('template/index', Array)
+#9 C:\xampp8\htdocs\attendance\system\CodeIgniter.php(928): App\Controllers\Register->studentList()
+#10 C:\xampp8\htdocs\attendance\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#11 C:\xampp8\htdocs\attendance\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp8\htdocs\attendance\public_html\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+INFO - 2021-08-27 10:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:43:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:45:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:45:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:45:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:46:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:46:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2021-08-27 23:46:35 --> GGGGGGGGGGGG:  Array
+(
+    [floatingLrn] => 
+    [floatingEmail] => 
+    [floatingType] => 
+    [floatingFirstName] => 
+    [floatingMiddleName] => 
+    [floatingLastName] => 
+    [floatingAddress] => 
+    [floatingParents] => 
+    [floatingNumber] => 
+    [floatingBirth] => 
+    [gender] => 1
+    [switch-status] => on
+    [floatingGrade] => Open this select menu
+    [floatingSection] => Open this select menu
+    [floatingStrand] => Open this select menu
+)
+
+INFO - 2021-08-27 10:46:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:47:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:50:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-08-27 23:50:22 --> syntax error, unexpected double-quoted string "></script>"
+#0 C:\xampp8\htdocs\attendance\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp8\htdocs\attendance\system\Common.php(1271): CodeIgniter\View\View->render('template/index', Array, true)
+#2 C:\xampp8\htdocs\attendance\app\Controllers\Register.php(139): view('template/index', Array)
+#3 C:\xampp8\htdocs\attendance\system\CodeIgniter.php(928): App\Controllers\Register->studentList()
+#4 C:\xampp8\htdocs\attendance\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#5 C:\xampp8\htdocs\attendance\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp8\htdocs\attendance\public_html\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-08-27 10:50:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:53:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:55:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 10:57:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 11:00:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 11:02:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 11:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 11:04:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 11:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 11:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 11:07:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 11:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 11:07:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 11:07:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 11:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 11:08:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 11:08:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 11:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 11:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 11:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 11:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 11:12:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 11:12:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 11:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 11:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 11:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 11:13:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 11:13:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2021-08-27 20:28:19 --> syntax error, unexpected integer "6", expecting ")"
+#0 C:\xampp8\htdocs\attendance\system\Autoloader\Autoloader.php(273): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp8\\htdoc...')
+#1 C:\xampp8\htdocs\attendance\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp8\htdocs\attendance\system\CodeIgniter.php(885): class_exists('\\App\\Controller...', true)
+#4 C:\xampp8\htdocs\attendance\system\CodeIgniter.php(421): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp8\htdocs\attendance\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp8\htdocs\attendance\public_html\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-08-27 20:28:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:28:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:31:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:31:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:37:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:37:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:37:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:37:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:37:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:37:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:37:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:37:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:37:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:37:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:37:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:38:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:39:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:41:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:41:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:44:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:47:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:47:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:47:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:55:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:55:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:55:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 20:55:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:00:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:01:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:04:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:12:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:12:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:13:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:13:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:32:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:32:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:32:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:32:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:32:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:32:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:38:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:38:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:38:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:39:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:45:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:46:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:46:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:46:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:47:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:47:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:49:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:49:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:49:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:49:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:51:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:51:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:51:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 21:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:00:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:00:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:00:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:02:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:02:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:05:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:05:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:05:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:05:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:09:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:09:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:10:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:10:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:13:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:13:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:14:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:14:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:14:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:14:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:14:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:15:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:15:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:15:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:15:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:20:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:20:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:20:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:33:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:33:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:33:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:33:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:33:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:34:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:34:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:34:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:34:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:34:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:35:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:35:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:35:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:37:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:38:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:38:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:39:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:39:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:39:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:40:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:40:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:45:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:46:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:46:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:46:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:46:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:46:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:48:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:48:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:53:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:53:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:54:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:54:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:55:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:55:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:55:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:55:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:55:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:57:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:57:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:57:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:57:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 22:57:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:01:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:01:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:02:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:03:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:03:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:06:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:10:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:10:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:10:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:11:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:11:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:11:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:11:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:11:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:11:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:12:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:12:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:12:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:13:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:14:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:14:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:14:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:14:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:14:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:14:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:14:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:15:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:15:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:16:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:16:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:16:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:17:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:17:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:18:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:18:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:18:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:19:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:19:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2021-08-27 23:19:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
